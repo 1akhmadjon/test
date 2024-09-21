@@ -85,12 +85,12 @@ WSGI_APPLICATION = 'djangoProject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Mbek001$erixconsulting',
-        'USER': 'Mbek001',
-        'PASSWORD': 'erixconsulting',
-        'HOST': 'Mbek001.mysql.pythonanywhere-services.com',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd6gpohfnqoefa0',
+        'USER': 'ue2gnm621ddjit',
+        'PASSWORD': 'pf7a60eec9109497761288c8eb572794a5fb738790abd635d1a609ee909e124b4',
+        'HOST': 'c67okggoj39697.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
