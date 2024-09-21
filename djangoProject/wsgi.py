@@ -8,7 +8,6 @@ https://docs.djangoproject.com/en/5.1/howto/deployment/wsgi/
 """
 
 import os
-import gunicorn
 from django.core.wsgi import get_wsgi_application
 
 import djangoProject
@@ -16,5 +15,3 @@ import djangoProject
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangoProject.settings')
 
 application = get_wsgi_application()
-
-web: gunicorn djangoProject.wsgi --log-file -
